@@ -1,5 +1,6 @@
 # Fiks Streams
 [![Maven Central](https://img.shields.io/maven-central/v/no.ks.fiks/fiks-streams)](https://search.maven.org/artifact/no.ks.fiks/fiks-streams)
+![GitHub](https://img.shields.io/github/release-date/ks-no/fiks-streams)
 ![GitHub](https://img.shields.io/github/license/ks-no/fiks-streams)
 
 Hjelpefunksjonalitet for streaming av data
