@@ -1,1 +1,1 @@
-libPipelineJdk11()
+ciFriendlyLibBuild()
