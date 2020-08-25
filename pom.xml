@@ -7,15 +7,15 @@
         <version>0.0.10</version>
     </parent>
     <groupId>no.ks.fiks</groupId>
-    <artifactId>dokumentlager-klient</artifactId>
+    <artifactId>fiks-streams</artifactId>
     <version>${revision}${changelist}</version>
-    <name>Fiks Dokumentlager Java-klient</name>
-    <description>Klient for opplasting, sletting og nedlasting av dokumenter fra Fiks Dokumentlager</description>
-    <url>https://github.com/ks-no/fiks-dokumentlager-klient</url>
+    <name>Fiks Streams</name>
+    <description>Hjelpefunksjonalitet for streaming av data</description>
+    <url>https://github.com/ks-no/fiks-streams</url>
     <scm>
-        <connection>scm:git:git@github.com:ks-no/fiks-dokumentlager-klient.git</connection>
-        <developerConnection>scm:git:git@github.com:ks-no/fiks-dokumentlager-klient.git</developerConnection>
-        <url>https://github.com/ks-no/fiks-dokumentlager-klient</url>
+        <connection>scm:git:git@github.com:ks-no/fiks-streams.git</connection>
+        <developerConnection>scm:git:git@github.com:ks-no/fiks-streams.git</developerConnection>
+        <url>https://github.com/ks-no/fiks-streams</url>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
