@@ -14,6 +14,13 @@ public class FiksPipedInputStream extends PipedInputStream {
         return read;
     }
 
+    @Override
+    public synchronized int read(byte[] b, int off, int len) throws IOException {
+        int read = super.read(b, off, len);
+        checkException();
+        return read;
+    }
+
     public void setException(Exception exception) {
         this.exception = exception;
     }
