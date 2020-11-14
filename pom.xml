@@ -27,7 +27,7 @@
     <changelist>-SNAPSHOT</changelist>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <hamcrest.version>2.2</hamcrest.version>
-    <revision>1.0.1</revision>
+    <revision>1.0.2</revision>
   </properties>
   <dependencies>
     <dependency>
