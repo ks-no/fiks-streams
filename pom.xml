@@ -10,7 +10,7 @@
   </parent>
   <groupId>no.ks.fiks</groupId>
   <artifactId>fiks-streams</artifactId>
-  <version>1.3.4-SNAPSHOT</version>
+  <version>1.3.5</version>
 
   <name>Fiks Streams</name>
   <description>Hjelpefunksjonalitet for streaming av data</description>
