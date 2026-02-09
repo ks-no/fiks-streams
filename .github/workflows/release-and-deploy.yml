@@ -33,3 +33,5 @@ jobs:
           artifactory_username: ${{ secrets.ARTIFACTORY_USERNAME }}
           artifactory_password: ${{ secrets.ARTIFACTORY_PASSWORD }}
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          sonatype-portal-ossrh-username: ${{ secrets.SONATYPE_PORTAL_OSSRH_USERNAME }}
+          sonatype-portal-ossrh-password: ${{ secrets.SONATYPE_PORTAL_OSSRH_PASSWORD }}
