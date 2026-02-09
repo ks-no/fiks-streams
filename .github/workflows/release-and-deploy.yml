@@ -2,6 +2,11 @@ name: Release and Deploy
 
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release'
+        required: true
+        default: ''
 
 permissions:
   id-token: write
@@ -21,6 +26,7 @@ jobs:
         with:
           java_version: '17'
           is_release: true
+          version: ${{ github.event.inputs.version }}
           ks_github_app_id: ${{ vars.KS_RUNNER_APP_ID }}
           ks_github_app_private_key: ${{ secrets.KS_RUNNER_PRIVATE_KEY }}
           dependency_track_api_key: ${{ secrets.DEPENDENCY_TRACK_API_KEY }}
