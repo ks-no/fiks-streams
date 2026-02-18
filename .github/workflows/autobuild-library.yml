@@ -39,6 +39,4 @@ jobs:
           artifactory_password: ${{ secrets.ARTIFACTORY_PASSWORD }}
           gpg_private_key: ${{ secrets.KS_CODESIGN_COMBO }}
           gpg_passphrase: ${{ secrets.KS_CODESIGN_COMBO_PASSWD }}
-          sonatype-portal-ossrh-username: ${{ secrets.SONATYPE_PORTAL_OSSRH_USERNAME }}
-          sonatype-portal-ossrh-password: ${{ secrets.SONATYPE_PORTAL_OSSRH_PASSWORD }}
-          maven_settings_xml: ${{ vars.OSS_SETTINGS_XML }}
+          maven_settings_xml: ${{ secrets.SONATYPE_OSSRH_SETTINGS_XML }}
