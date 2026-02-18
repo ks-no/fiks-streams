@@ -19,7 +19,7 @@ concurrency:
 jobs:
   release:
     runs-on: [ubuntu-latest]
-    timeout-minutes: 30
+    timeout-minutes: 300
     steps:
       - name: Release and publish library
         uses: ks-no/github-actions-public/public-java-maven@main
