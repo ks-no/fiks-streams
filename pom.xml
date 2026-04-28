@@ -28,8 +28,8 @@
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <junit-jupiter.version>6.0.2</junit-jupiter.version>
-    <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
+    <junit-jupiter.version>6.0.3</junit-jupiter.version>
+    <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
     <hamcrest.version>3.0</hamcrest.version>
   </properties>
 
